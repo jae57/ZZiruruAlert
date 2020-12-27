@@ -22,7 +22,7 @@ pod 'ZZiruruAlert'
 
 ## Author
 
-jae57, ggapsong@naver.com
+jae57, jaeee9@gmail.com
 
 ## License
 
