@@ -1,0 +1,6 @@
+framework module Pods_ZZiruruAlert_Tests {
+  umbrella header "Pods-ZZiruruAlert_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

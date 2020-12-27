@@ -1,0 +1,22 @@
+{
+  "name": "ZZiruruAlert",
+  "version": "0.1.0",
+  "summary": "A short description of ZZiruruAlert.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jae57/ZZiruruAlert",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jae57": "ggapsong@naver.com"
+  },
+  "source": {
+    "git": "https://github.com/jae57/ZZiruruAlert.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ZZiruruAlert/Classes/**/*"
+}

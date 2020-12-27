@@ -1,0 +1,16 @@
+PODS:
+  - ZZiruruAlert (0.1.0)
+
+DEPENDENCIES:
+  - ZZiruruAlert (from `../`)
+
+EXTERNAL SOURCES:
+  ZZiruruAlert:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZZiruruAlert: 83273ea7adfdbfea2e5e606452df48de5ea90fe7
+
+PODFILE CHECKSUM: 2eebc7f5398e3df99fa3d76599ca3467f86b0072
+
+COCOAPODS: 1.9.3

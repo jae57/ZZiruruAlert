@@ -1,0 +1,6 @@
+framework module Pods_ZZiruruAlert_Example {
+  umbrella header "Pods-ZZiruruAlert_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

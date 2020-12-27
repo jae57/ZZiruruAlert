@@ -1,0 +1,6 @@
+framework module ZZiruruAlert {
+  umbrella header "ZZiruruAlert-umbrella.h"
+
+  export *
+  module * { export * }
+}

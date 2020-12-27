@@ -41,10 +41,10 @@
 		607FACE51AFB9204008FA782 /* ZZiruruAlert_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZiruruAlert_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7B9BA82E58561124D65BBF03 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7B9BA82E58561124D65BBF03 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		86C291CA4F0817E7C1A358D6 /* Pods_ZZiruruAlert_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZiruruAlert_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		884BEB98DFAFEB9DCB1D5731 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		A192C86A4D3E190A73DF670F /* ZZiruruAlert.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZZiruruAlert.podspec; path = ../ZZiruruAlert.podspec; sourceTree = "<group>"; };
+		884BEB98DFAFEB9DCB1D5731 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A192C86A4D3E190A73DF670F /* ZZiruruAlert.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZZiruruAlert.podspec; path = ../ZZiruruAlert.podspec; sourceTree = "<group>"; };
 		CE0F6F77C7C6FE165FF63D36 /* Pods-ZZiruruAlert_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZiruruAlert_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZZiruruAlert_Tests/Pods-ZZiruruAlert_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CE38B3D01E02075D51962262 /* Pods-ZZiruruAlert_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZiruruAlert_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZZiruruAlert_Example/Pods-ZZiruruAlert_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,7 +156,6 @@
 				CE0F6F77C7C6FE165FF63D36 /* Pods-ZZiruruAlert_Tests.debug.xcconfig */,
 				0A4C026BD6E1010690C3D72D /* Pods-ZZiruruAlert_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -479,6 +479,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZZiruruAlert/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -494,6 +495,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZZiruruAlert/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
